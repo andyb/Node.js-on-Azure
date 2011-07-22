@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="NodeOnAzure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WorkerRole name="Node.js" vmsize="Small">    
+    <Endpoints>
+      <InputEndpoint name="httpIn" protocol="tcp" port="80" />
+    </Endpoints>
+    <LocalResources>
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>
